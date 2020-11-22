@@ -24,6 +24,7 @@ db.connect(function(err) {
   }
 });
 
+
 new Router(app, db);
 
 app.get('/', function(req, res) {
