@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.ec816119.chunk.css",
+    "main.js": "./static/js/main.24b81bba.chunk.js",
+    "main.js.map": "./static/js/main.24b81bba.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.4dfcd5b6.js",
+    "runtime-main.js.map": "./static/js/runtime-main.4dfcd5b6.js.map",
+    "static/js/2.58aa39e3.chunk.js": "./static/js/2.58aa39e3.chunk.js",
+    "static/js/2.58aa39e3.chunk.js.map": "./static/js/2.58aa39e3.chunk.js.map",
+    "static/js/3.d608e420.chunk.js": "./static/js/3.d608e420.chunk.js",
+    "static/js/3.d608e420.chunk.js.map": "./static/js/3.d608e420.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.ec816119.chunk.css.map": "./static/css/main.ec816119.chunk.css.map",
+    "static/js/2.58aa39e3.chunk.js.LICENSE.txt": "./static/js/2.58aa39e3.chunk.js.LICENSE.txt",
+    "static/media/Dropoff.335e6cf4.svg": "./static/media/Dropoff.335e6cf4.svg",
+    "static/media/Logo.5d30a3d0.svg": "./static/media/Logo.5d30a3d0.svg",
+    "static/media/Pays.5d612c9a.svg": "./static/media/Pays.5d612c9a.svg",
+    "static/media/Pickup.493422d4.svg": "./static/media/Pickup.493422d4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4dfcd5b6.js",
+    "static/js/2.58aa39e3.chunk.js",
+    "static/css/main.ec816119.chunk.css",
+    "static/js/main.24b81bba.chunk.js"
+  ]
+}
