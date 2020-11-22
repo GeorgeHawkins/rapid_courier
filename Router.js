@@ -21,6 +21,7 @@ class Router {
       db.query('SELECT * FROM user WHERE username = ? LIMIT 1', cols, (err, data, fields) => {
 
         if (err) {
+          console.log(err);
           res.json({
             success: false,
             msg: 'An error occured, please try again'
