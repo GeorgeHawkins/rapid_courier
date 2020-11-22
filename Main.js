@@ -11,17 +11,16 @@ app.use(express.json());
 //Database
 
 const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'rapid'
+  host: 'us-cdbr-east-02.cleardb.com',
+  user: 'bccf3b9f4740a9',
+  password: 'f56ade09',
+  database: 'heroku_bdbaf8607a93536'
 });
 
 db.connect(function(err) {
   if (err) {
     console.log('database error');
     throw err;
-    return false;
   }
 });
 
