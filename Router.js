@@ -21,8 +21,6 @@ class Router {
     this.accept(app, db);
   }
 
-
-
   login(app, db) {
 
     app.post('/login', (req, res) => {
