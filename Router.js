@@ -72,7 +72,6 @@ class Router {
 
 
       });
-      db.release();
 
     });
   }
@@ -80,6 +79,8 @@ class Router {
   jobs(app, db) {
 
     app.get('/jobs', (req, res) => {
+
+      db = getConnection();
 
       db.query("SELECT * FROM jobs WHERE status = 'Available'", (err, data, fields) => {
 
@@ -113,6 +114,8 @@ class Router {
 
     app.put('/accept', (req, res) => {
 
+      db = getConnection();
+
       let id = req.body.id;
 
       let cols = [id];
@@ -131,9 +134,6 @@ class Router {
             
           })
         }
-
-          
-
       });
 
     });
