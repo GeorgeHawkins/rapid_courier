@@ -72,6 +72,7 @@ class Router {
 
 
       });
+      db.release();
 
     });
   }
