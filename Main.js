@@ -63,6 +63,7 @@ app.use(express.json());
 //   }
 // });
 
+var db;
 
 new Router(app, db);
 
