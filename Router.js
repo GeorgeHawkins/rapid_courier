@@ -1,4 +1,17 @@
 const bcrypt = require('bcrypt');
+const mysql = require('mysql');
+
+const pool = mysql.createPool({
+  connectionLimit: 10,
+  host: 'us-cdbr-east-02.cleardb.com',
+  user: 'bccf3b9f4740a9',
+  password: 'f56ade09',
+  database: 'heroku_bdbaf8607a93536'
+})
+
+function getConnection() {
+  return pool;
+}
 
 class Router {
 
@@ -8,9 +21,13 @@ class Router {
     this.accept(app, db);
   }
 
+
+
   login(app, db) {
 
     app.post('/login', (req, res) => {
+
+      db = getConnection();
 
       let username = req.body.username;
       let password = req.body.password;
