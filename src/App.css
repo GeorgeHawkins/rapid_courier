@@ -1,0 +1,168 @@
+body {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #EEEEEE;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 28px;
+  margin: 0;
+  padding: 2px;
+  padding-bottom: 5px;
+}
+
+.Main {
+  max-width: 700px;
+  margin: auto;
+}
+
+.Header {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  padding: 20px 0;
+}
+
+.HeaderBar {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  padding: 15px 0;
+  text-align: left;
+  background: #E0E0E0;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.24);
+}
+
+.Logo {
+  padding: 0 10px;
+  vertical-align: top;
+}
+
+.InputField {
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: Roboto;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-style: hidden hidden solid hidden;
+  outline: none;
+  background-color: #EEEEEE;
+  padding: 3px;
+  width: 95%;
+}
+
+.InputField:focus {
+  border: 2px solid #009688;
+  border-style: hidden hidden solid hidden;
+}
+
+.SignInButton {
+  width: 95%;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  height: 36px;
+  margin: 30px 0px;
+}
+
+.TestUsersHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.TestUsersText {
+  margin: 0 10px;
+  font-weight: 400;
+}
+
+.JobScreen {
+  width: 95%;
+  margin: auto;
+}
+
+.JobCard {
+  background: #FAFAFA;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  color: #009688;
+  text-align: left;
+  padding: 20px;
+}
+
+.JobDetails {
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  padding: 5px 5px;
+  white-space: pre-wrap;
+  display: flex;
+}
+
+.JobDetailsFlexContainer {
+  display: flexbox;
+  flex-direction: column;
+}
+
+.JobDetailsGrey {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.JobIcons {
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.AcceptCard {
+  background: #FAFAFA;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-style: solid hidden hidden hidden;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+}
+
+.AcceptButton {
+  background: #FAFAFA;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #009688;
+  border: none;
+  outline: none;
+}
+
+.AcceptButton:hover {
+  cursor: pointer;
+  transform: translateY(-0.1em);
+  
+}
+
+.AcceptButton:focus {
+  cursor: progress;
+}
+
+@media (min-width: 800px) { 
+
+  .SignInButton, .InputField, .HeaderBar, .JobScreen {
+    width: 70%;
+  }
+
+}
